@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #03CEA4;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sm-container .show-btn{
+    color: black;
+    font-size: 40px;
+}
+
+.sm-container{
+    text-align: center;
+}
+
+.sm-container i{
+    color: #f5f6fa;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.sm-container i:hover{
+    transform: scale(1.7);
+}
+
+.sm-menu{
+    background: #CA1551;
+    position: absolute;
+    border-radius: 8px;
+    display: none;
+}
+
+.sm-menu::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #CA1551;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+
+}

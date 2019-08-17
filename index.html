@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cool Social Media Icons</title>
+</head>
+<body>
+    <div class="middle">
+        <div class="sm-container">
+            <i class="show-btn fa fa-user"></i>
+                <div class="sm-menu">
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </div>
+        </div>
+    </div>
+    <script>
+        $(".show-btn").click(function(){
+            $(".sm-menu").fadeToggle("fast");
+        });
+    </script>
+</body>
+</html>
